@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 4px solid orange;
+    height: 100vh;
+    display: flex;
+    /* Se establece el modelo Flex */
+    /* Flex provoca que todos los elementos hijos pasen a ser en línea */
+
+    /* Alinea en el eje primario (EJE X) */
+    justify-content: space-around;
+
+    /* Valores para justify-content 
+        - flex-start (por defecto) al inicio 
+        - center centra
+        - flex-end al final
+        - space-between reparte los espacios desde los extremos
+        - space-around reparte los espacios entre todos los elementos */
+
+    /* Alinea en el eje secundario (EJE Y)*/
+    align-items: center;
+
+    /* Valores para align-items 
+        - flex-start al inicio 
+        - center centra
+        - flex-end al final
+        - stretch (por defecto) */
+}
+
+.caja {
+    width: 125px;
+    height: 125px;
+}
+
+.azul {
+    background-color: cornflowerblue;
+}
+
+.verde {
+    background-color: darkcyan
+}
+
+.roja {
+    background-color: darkred
+}
+
+.morada {
+    background-color: violet
+}
